@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} — {{ site.title }}</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Arial,sans-serif;max-width:900px;margin:2rem auto;padding:0 1rem;line-height:1.6}
+    header,footer{color:#666}
+    nav a{margin-right:1rem}
+    code{background:#f3f3f3;padding:.1rem .25rem;border-radius:.25rem}
+  </style>
+</head>
+<body>
+  <header>
+    <nav><a href="{{ "/" | relative_url }}">Главная</a> <a href="/about">О проекте</a></nav>
+    <h1>{{ site.title }}</h1>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <hr>
+    <p>Сайт генерируется GitHub Pages (Jekyll). Контент — в репозитории.</p>
+  </footer>
+</body>
+</html>

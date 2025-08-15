@@ -1,0 +1,8 @@
+title: ТВ-редакция (MVP)
+description: Простая лента выпусков и статей на GitHub Pages
+baseurl: ""
+url: ""
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
